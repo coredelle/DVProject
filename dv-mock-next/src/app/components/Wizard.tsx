@@ -67,7 +67,7 @@ export default function Wizard({ open, onClose, onFinish }: { open: boolean; onC
     >
       {step === 1 && (
         <div>
-          <p className="text-gray-600">Fill in a few details to check basic eligibility. This is a mock.</p>
+          <p className="text-gray-600">Fill in a few details to check basic eligibility.</p>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             <Field label="VIN"><input className="input" value={eligibility.vin} onChange={e => setEligibility({ ...eligibility, vin: e.target.value })} placeholder="17 characters" /></Field>
             <Field label="Mileage"><input className="input" value={eligibility.mileage} onChange={e => setEligibility({ ...eligibility, mileage: e.target.value })} placeholder="9378" /></Field>

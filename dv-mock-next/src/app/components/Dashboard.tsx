@@ -42,9 +42,9 @@ export default function Dashboard() {
           <div className="mb-3 text-lg font-semibold">Claim Status</div>
           <ProgressBar stage={stage} />
           <div className="mt-4 flex flex-wrap gap-2">
-            <button className="btn-secondary" onClick={() => alert('Demand letter re-sent (mock)')}>Resend Demand Letter</button>
-            <button className="btn-secondary" onClick={() => alert('Filed DOI complaint (mock)')}>File DOI Complaint</button>
-            <button className="btn-secondary" onClick={() => setStage(s => Math.min(2, s + 1))}>Advance Stage (mock)</button>
+            <button className="btn-secondary" onClick={() => alert('Demand letter re-sent')}>Resend Demand Letter</button>
+            <button className="btn-secondary" onClick={() => alert('Filed DOI complaint')}>File DOI Complaint</button>
+            <button className="btn-secondary" onClick={() => setStage(s => Math.min(2, s + 1))}>Advance Stage</button>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ export default function Dashboard() {
             </ul>
           )}
           <div className="mt-4 flex gap-2">
-            <button className="btn-secondary" onClick={() => alert('Downloaded appraisal (mock)')}>Download Report</button>
+            <button className="btn-secondary" onClick={() => alert('Downloaded appraisal')}>Download Report</button>
           </div>
         </div>
       </section>

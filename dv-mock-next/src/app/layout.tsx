@@ -2,7 +2,7 @@ import './globals.css'  // file must be exactly src/app/globals.css
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'DV Claim Platform (Mock)',
+  title: 'DV Claim Platform',
   description: 'Clickable mock UI for DV flow',
 }
 

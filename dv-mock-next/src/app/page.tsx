@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div className="p-6">
       <header className="mx-auto flex max-w-6xl items-center justify-between">
-        <div className="text-xl font-bold">DV Claim Platform (Mock)</div>
+        <div className="text-xl font-bold">DV Claim Platform</div>
         <div className="flex gap-2">
           <button
             className="btn-secondary"
